@@ -1,4 +1,5 @@
 # 🚗 SpotReserve - Sistema de Reserva de Vagas (Flutter)
+
 ### Prova Prática: Testes de Unidade e Mocks com Mocktail
 
 Avaliação prática desenvolvida para a disciplina de **Desenvolvimento Mobile com Flutter** na **FIAP**.
@@ -46,14 +47,8 @@ flutter run
 
 ## 🧪 Como Executar os Testes de Unidade
 
-Com o **`mocktail`**, **não é necessário executar nenhum comando de code generation (`build_runner`)**. Os testes rodam instantaneamente!
-
-### 1. Testes do Gabarito Oficial (Professor)
-```bash
-flutter test test/gabarito/reservation_manager_gabarito_test.dart
-```
-
 ### 2. Testes da Prova do Aluno
+
 ```bash
 flutter test test/reservation_manager_student_test.dart
 ```
@@ -61,4 +56,5 @@ flutter test test/reservation_manager_student_test.dart
 ---
 
 ## 📄 Enunciado da Prova
+
 Consulte o arquivo [`PROVA.md`](PROVA.md) para ler o enunciado completo com tabela de pontuação (10,0 pontos / 50 minutos), regras de negócio e orientações de entrega.
